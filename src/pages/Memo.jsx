@@ -65,7 +65,7 @@ const Memo = () => {
           button {
             font-family: 'NanumSquareNeo', sans-serif;
             margin: 0.8rem;
-            padding: 10px 16px;
+            padding: 0.625rem 1rem;
             border: none;
             border-radius: 50%;
             box-shadow: 3px 4px 10px rgba(147, 222, 61, 0.605);
@@ -153,7 +153,7 @@ const styles = {
   },
   leftPanel: {
     flex: 1,
-    padding: '20px',
+    padding: '1.25rem',
     borderRadius: '10px',
     backgroundColor: '#fff',
     border: '2px solid rgb(38, 180, 100)',
@@ -163,7 +163,7 @@ const styles = {
   },
   rightPanel: {
     flex: 1,
-    padding: '20px',
+    padding: '1.25rem',
     borderRadius: '10px',
     backgroundColor: '#fff',
     border: '2px solid rgb(38, 180, 100)',

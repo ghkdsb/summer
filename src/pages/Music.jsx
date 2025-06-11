@@ -93,8 +93,8 @@ const styles = {
     fontSize: '24px',
     fontWeight: '200',
     color: '#008024',
-    marginTop: '40px',
-    marginBottom: '80px',
+    marginTop: '2.5rem',
+    marginBottom: '5rem',
     textAlign: 'center',
   },
   teamLogo: {

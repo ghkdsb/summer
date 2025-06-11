@@ -11,15 +11,15 @@ const Level = () => {
           .level-buttons {
             display: flex;
             justify-content: center;
-            gap: 16px;
+            gap: 1rem;
             margin-top: 13rem;
             margin-bottom: 16rem;
           }
 
           .level-buttons button {
             font-family: 'NanumSquareNeo', sans-serif;
-            margin: 0 8px;
-            padding: 10px 16px;
+            margin: 0 0.5rem;
+            padding: 0.625rem 1rem;
             border: none;
             border-radius: 50%;
             box-shadow: 3px 4px 10px rgba(147, 222, 61, 0.605);
@@ -55,8 +55,8 @@ const styles = {
     fontSize: '24px',
     fontWeight: '200',
     color: '#008024',
-    marginTop: '40px',
-    marginBottom: '80px',
+    marginTop: '2.5rem',
+    marginBottom: '5rem',
     textAlign: 'center',
   },
 };

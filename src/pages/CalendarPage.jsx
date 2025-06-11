@@ -20,19 +20,19 @@ const CalendarPage = () => {
       <style>
         {`
           .react-calendar {
-            transform: translateY(-50px);
+            transform: translateY(-3.125rem);
             width: 500px;
             margin: 0 auto;
             border: 2px solid rgb(38, 180, 100);
             border-radius: 10px;
-            padding: 20px;
+            padding: 1.25rem;
             font-family: 'NanumSquareNeo', sans-serif;
             box-shadow: 0 0 10px rgba(0, 128, 36, 0.2);
           }
 
           .react-calendar__tile {
             max-width: 100%;
-            padding: 20px 6.6667px;
+            padding: 1.25rem 0.4rem;
             background: none;
             text-align: center;
             font: inherit;
@@ -75,7 +75,7 @@ const styles = {
     fontSize: '24px',
     fontWeight: '200',
     color: '#008024',
-    marginTop: '40px',
+    marginTop: '2.5rem',
     marginBottom: '13rem',
     textAlign: 'center',
     fontFamily: 'NanumSquareNeo, sans-serif',

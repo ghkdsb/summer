@@ -100,7 +100,7 @@ const Game = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            style={{ padding: '10px', marginTop: '20px', fontSize: '18px' }}
+            style={{ padding: '0.625rem', marginTop: '1.25rem', fontSize: '18px' }}
             disabled={gameOver}
           />
         </>
@@ -114,8 +114,8 @@ const styles = {
     fontSize: '24px',
     fontWeight: '200',
     color: '#008024',
-    marginTop: '40px',
-    marginBottom: '40px',
+    marginTop: '2.5rem',
+    marginBottom: '2.5rem',
     textAlign: 'center',
   },
   hot: {
@@ -124,8 +124,8 @@ const styles = {
   },
   scoreText: {
     color: '#008024',
-    marginTop: '60px',
-    marginBottom: '40px'
+    marginTop: '3.75rem',
+    marginBottom: '2.5rem'
   },
 };
 

@@ -137,9 +137,9 @@ const Recipe = () => {
 const styles = {
   container: {
     display: 'flex',
-    padding: '5rem',
+    padding: '10rem',
     gap: '2rem',
-    maxWidth: '1200px',
+    maxWidth: '75rem',
     margin: '0 auto',
     flexWrap: 'nowrap'
   },
@@ -150,13 +150,13 @@ const styles = {
   },
   image: {
     width: '100%',
-    maxWidth: '400px',
+    maxWidth: '25rem',
     borderRadius: '1rem',
     marginBottom: '1rem',
   },
   rightPanel: {
     flex: '1 1 50%',
-    maxHeight: '500px',
+    maxHeight: '31.25rem',
     overflowY: 'auto',
     backgroundColor: '#fff',
     padding: '1rem 2rem 1rem 2rem',

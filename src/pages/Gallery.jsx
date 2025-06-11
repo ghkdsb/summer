@@ -14,13 +14,13 @@ const Gallery = () => {
           .drawingBtn {
             display: flex;
             justify-content: center;
-            gap: 16px;
+            gap: 1rem;
           }
 
           .drawingBtn button {
             font-family: 'NanumSquareNeo', sans-serif;
-            margin: 0 8px;
-            padding: 10px 16px;
+            margin: 0 0.5rem;
+            padding: 0.625rem 1rem;
             border: none;
             border-radius: 50%;
             box-shadow: 3px 4px 10px rgba(147, 222, 61, 0.605);
@@ -66,21 +66,21 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    padding: '10px',
+    padding: '0.625rem',
   },
   galleryTitle: {
     fontSize: '24px',
     fontWeight: '200',
     color: '#008024',
-    marginBottom: '50px',
+    marginBottom: '3.125rem',
     textAlign: 'center',
   },
   galleryGrid: {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    gap: '20px',
-    marginTop: '30px',
+    gap: '1.25rem',
+    marginTop: '1.875rem',
     maxWidth: '1500px',
     marginLeft: 'auto',
     marginRight: 'auto'
@@ -100,14 +100,14 @@ const styles = {
     backgroundColor: '#ff4d4d',
     color: 'white',
     border: 'none',
-    padding: '5px 10px',
+    padding: '0.31rem 0.625rem',
     borderRadius: '5px',
     cursor: 'pointer',
   },
   drawingBtn: {
     fontFamily: 'NanumSquareNeo',
-    margin: '0 10px',
-    padding: '10px 20px',
+    margin: '0 0.625rem',
+    padding: '0.625rem 1.25rem',
     backgroundColor: 'rgba(147, 222, 61, 0.605)',
     color: 'rgb(48, 120, 0)',
     border: 'none',
