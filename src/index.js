@@ -11,7 +11,7 @@ import { GalleryProvider } from './context/GalleryContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <GalleryProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/summer">
       <App />
     </BrowserRouter>
   </GalleryProvider>
