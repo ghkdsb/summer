@@ -1,0 +1,60 @@
+.drawing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drawing-title {
+    font-size: 24px;
+    font-weight: 200;
+    color: #008024;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.color-buttons {
+    margin: 40px;
+}
+
+.color-buttons button {
+    font-family: 'NanumSquareNeo';
+    margin: 0 8px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 3px 4px 10px rgba(147, 222, 61, 0.605);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.color-buttons button:hover {
+    background-color: #8bec238a;
+}
+
+canvas {
+    border: 2px solid rgb(38, 180, 100) !important;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(138, 224, 84, 0.454);
+    margin-bottom: 20px;
+}
+
+.drawing-buttons button {
+    font-family: 'NanumSquareNeo';
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 3px 4px 10px rgba(147, 222, 61, 0.605);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.drawing-buttons button:hover {
+    background-color: #e9fbd3;
+}
